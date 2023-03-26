@@ -7,7 +7,6 @@ if (!isset($_SESSION['logged_in']) || !$_SESSION['logged_in']) {
 }
 
 
-
 ?>
 
 <!-- Your dashboard content goes here -->
