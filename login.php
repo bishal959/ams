@@ -8,11 +8,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   if ($entered_pin === PIN) {
     // PIN is correct, grant access and redirect to home page
-    header('Location: sucess.html');
+    header('Location: html.php');
     exit;
   } else {
     // PIN is incorrect, deny access and show error message
-    $error_message = 'Access denied. Please try again.';
+   header('Location: index.php');
   }
 
 }
